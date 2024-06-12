@@ -1,2 +1,63 @@
+*{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    color: hsl(192, 100%, 9%);
+}
+.HeadingsFont{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+header, article, footer{
+    width: 376px;
+    /* border: solid red 1px; */
+    margin: auto;
+    padding: 1.3rem 1.5rem;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 6rem;
+}
+.logo{
+    width: 6.2rem;
+    height: 1.1rem;
+}
+.button{
+    color: white;
+    background-color:hsl(322, 100%, 66%);
+    border-radius: 0.8rem;
+    padding: .4rem 1rem;
+    border: none;
+}
+.free{
+    color: hsl(322, 100%, 66%);
+    font-size: .7rem;
+    border: 0.01rem solid hsl(322, 100%, 66%);
+    background-color: white;
+}
+.sect_1{
+    display: grid;
+    justify-items: center;
+}
+.h1{
+    font-size: 1.5rem;
+    width: 17.5rem;
+    line-height: 2rem;
+    text-align: center;
+}
+.p{
+    text-align: center;
+    width: 22rem;
+    line-height: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+
+
 .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+.attribution a { color: hsl(228, 45%, 44%); }
