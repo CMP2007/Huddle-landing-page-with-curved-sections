@@ -5,7 +5,7 @@
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
-    color: hsl(192, 100%, 9%);
+    box-sizing: border-box;
 }
 .HeadingsFont{
     font-family: "Poppins", sans-serif;
@@ -14,10 +14,34 @@
 }
 header, article, footer{
     width: 376px;
-    /* border: solid red 1px; */
     margin: auto;
+}
+header, .footerDiv_2, .footerDiv_3{
     padding: 1.3rem 1.5rem;
 }
+header, article{color: hsl(192, 100%, 9%);}
+.p{
+    text-align: center;
+    width: 20rem;
+    font-size: .87rem;
+    line-height: 1.25rem;
+    margin-bottom: 3rem;
+}
+.extremes{
+    width: 100%;
+    height: 100%;
+}
+.minTittle{
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+.background{ background-color: hsl(207, 100%, 98%);}
+.illustration{width: 80%; height: 100%;}
+.svg{
+    position: relative;
+    transform: translateY(0.25rem);
+}
+/*********************header************************/
 header{
     display: flex;
     justify-content: space-between;
@@ -28,36 +52,166 @@ header{
     height: 1.1rem;
 }
 .button{
-    color: white;
+    color: #ffffff;
     background-color:hsl(322, 100%, 66%);
-    border-radius: 0.8rem;
-    padding: .4rem 1rem;
+    border-radius: 1.5rem;
+    padding: .75rem 2rem ;
     border: none;
+    font-size: .8rem;
+}
+.button:hover{
+    background-color:  hsl(321, 100%, 78%);
 }
 .free{
     color: hsl(322, 100%, 66%);
     font-size: .7rem;
     border: 0.01rem solid hsl(322, 100%, 66%);
-    background-color: white;
+    background-color: transparent;
+    padding: .4rem 1rem;
+    border-radius: 0.8rem;
 }
+.free:hover{
+    color:  hsl(321, 100%, 78%);
+    border-color:  hsl(321, 100%, 78%);
+}
+/*********************sect_1************************/
 .sect_1{
     display: grid;
     justify-items: center;
 }
-.h1{
+.h1, h3{
     font-size: 1.5rem;
     width: 17.5rem;
     line-height: 2rem;
     text-align: center;
 }
-.p{
+
+/*********************sect_2************************/
+.sect_2{
+    display: grid;
+    justify-items: center;
+}
+.mockups{
+    width: 90%;
+    margin-top: 6rem;
+}
+/*********************sect_3************************/
+.sect_3, .sect_3_Div{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.sect_3_Div{
+    padding: 0 6rem;
+    margin-top: 6rem;
+}
+.sect_3_icon{
+    width: 1.75rem;
+    margin-bottom: .6rem;
+}
+.sect_3_Number{
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.sect_3_sub{
+    opacity: .5;
     text-align: center;
-    width: 22rem;
-    line-height: 1.5rem;
-    margin-bottom: 3rem;
+}
+/*********************sect_4************************/
+.sect_4, .sect_4Div_2{
+    display: grid;
+    justify-items: center;
 }
 
+.sect_4Div_2{
+    padding: 6rem 0;
+}
+.sect_Div_P{
+    display: grid;
+    justify-items: center;
+}
+/*********************sect_5************************/
+.sect_5{margin: 8rem 0 6rem 0;}
+.sect_5Div_1{margin-bottom:6rem; display: grid; justify-items: center;}
 
+/*********************sect_6************************/
+.sect_6Div_2{padding-bottom: 6rem; display: grid; justify-items: center;}
+.sect_6Div_3{padding-bottom: 3rem;}
+/*********************sect_6************************/
+.sect_7{
+    margin: 3rem 0 17rem 0;
+    display: grid;
+    justify-items: center;
+}
+/*********************footer************************/
+.footerDiv_2{
+    padding-top: 4rem;
+}
+.footerDiv_2, .footerDiv_3{ background-color: hsl(192, 100%, 9%); color: hsl(207, 100%, 98%);}
+.F{
+    text-align: left; 
+    margin-bottom: 2rem;
+    font-weight: 400; 
+    width: 16rem; 
+    font-size: .75rem;
+    line-height: 1.2rem;
+}
+.inputText{
+    width: 100%;
+    padding: .8rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+.alert{
+    color: hsl(0, 100%, 63%);
+    font-size: .65rem;
+}
+.hidden{
+    visibility: hidden;
+}
+.buttonDiv{
+    width: 100%;
+    display: grid;
+    justify-items: right;
+}
+.suscribe{
+    border-radius: .4rem;
+}
+.messages2{width: 2.5rem; margin-top: 3rem;}
+.footerTittle{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.divContact{
+    display: grid;
+    grid-template-columns: 1rem 1fr;
+    gap: 1rem;
+}
+.iconContact{
+width: 1rem;
+}
+.footerText{
+    font-size: .75rem;
+    font-weight: 400;
+}
+.socialConteiner{
+    width: 6rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 2.5rem 0 1rem 0;
+}
+.redes{
+    width: 1.2rem;
+}
+.facebookSvg:hover path{
+    fill: #3b5998;
+}
+.twitterSvg:hover path{
+    fill: #55acee;
+}
+.instagramSvg:hover path{
+    fill: url(#instagram-gradient);
+}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
