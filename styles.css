@@ -13,7 +13,7 @@
     font-style: normal;
 }
 header, article, footer{
-    width: 376px;
+    width: 100%;
     margin: auto;
 }
 header, .footerDiv_2, .footerDiv_3{
