@@ -20,12 +20,23 @@ header, .footerDiv_2, .footerDiv_3{
     padding: 1.3rem 1.5rem;
 }
 header, article{color: hsl(192, 100%, 9%);}
-.p{
+.p, .p1{
     text-align: center;
     width: 20rem;
     font-size: .87rem;
     line-height: 1.25rem;
     margin-bottom: 3rem;
+}
+.button{
+    color: #ffffff;
+    background-color:hsl(322, 100%, 66%);
+    border-radius: 1.5rem;
+    padding: .75rem 2rem ;
+    border: none;
+    font-size: .8rem;
+}
+.button:hover{
+    background-color:  hsl(321, 100%, 78%);
 }
 .extremes{
     width: 100%;
@@ -50,17 +61,6 @@ header{
 .logo{
     width: 6.2rem;
     height: 1.1rem;
-}
-.button{
-    color: #ffffff;
-    background-color:hsl(322, 100%, 66%);
-    border-radius: 1.5rem;
-    padding: .75rem 2rem ;
-    border: none;
-    font-size: .8rem;
-}
-.button:hover{
-    background-color:  hsl(321, 100%, 78%);
 }
 .free{
     color: hsl(322, 100%, 66%);
@@ -98,7 +98,7 @@ header{
 /*********************sect_3************************/
 .sect_3, .sect_3_Div{
     display: grid;
-    grid-template-columns: 1fr;
+    justify-items: center;
 }
 .sect_3_Div{
     padding: 0 6rem;
@@ -122,13 +122,16 @@ header{
     display: grid;
     justify-items: center;
 }
-
+.sect_4Div_1, .sect_4Div_4{
+    width: 100%;
+}
 .sect_4Div_2{
     padding: 6rem 0;
 }
 .sect_Div_P{
     display: grid;
     justify-items: center;
+    width: 100%;
 }
 /*********************sect_5************************/
 .sect_5{margin: 8rem 0 6rem 0;}
@@ -137,7 +140,7 @@ header{
 /*********************sect_6************************/
 .sect_6Div_2{padding-bottom: 6rem; display: grid; justify-items: center;}
 .sect_6Div_3{padding-bottom: 3rem;}
-/*********************sect_6************************/
+/*********************sect_7************************/
 .sect_7{
     margin: 3rem 0 17rem 0;
     display: grid;
@@ -161,6 +164,7 @@ header{
     padding: .8rem;
     border-radius: 0.5rem;
     border: none;
+    outline: none;
 }
 .alert{
     color: hsl(0, 100%, 63%);
@@ -215,3 +219,134 @@ width: 1rem;
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+@media (min-width:499px) and (max-width: 649px) {
+    .p{
+        width: 23rem;
+    }
+    .F{
+        width: 21rem;
+    }
+    header, .footerDiv_2, .footerDiv_3{
+        padding: 2.5rem 3rem;
+    }
+}
+
+
+
+
+@media (min-width:650px) {
+    header{
+        padding: 2.5rem 3rem;
+    }
+    .h1{
+        width: 100%;
+    }
+    .p1{
+        width: 27rem;
+        margin-bottom: 2rem;
+    }
+    .mockups{
+        margin-top: 3.5rem;
+        width: 33rem;
+    }
+
+    .sect_3 {
+        grid-template-columns: 30rem 1rem;
+        margin-bottom: 6rem;
+        justify-items: center;
+    }
+    .sect_4{
+        grid-template-columns: 1fr 1fr ;
+        grid-template-areas: 
+        "sect_4Div_1 sect_4Div_1"
+        "sect_Div_P sect_4Div_2"
+        "sect_4Div_4 sect_4Div_4";
+    }
+    .sect_4Div_1{grid-area: sect_4Div_1;}
+    .sect_4Div_2{grid-area: sect_4Div_2; padding: 2rem 3rem 2rem 0;}
+    .sect_Div_P{
+        display: flex;
+        grid-area:  sect_Div_P; 
+        align-items: center;
+        flex-direction: column;
+        padding: 8rem 0 0 3rem; 
+    }
+    .sect_4Div_4{grid-area: sect_4Div_4;}
+    .minTittle{
+        width: 100%;
+        align-self: center;
+    }
+    .p{
+        width: 100%; 
+        text-align: left;
+        font-size: .75rem;
+   
+        align-self: center;
+    }
+    .illustration{
+        height: min-content;
+        width: 100%;     
+    }
+    .sect_5{
+        display: flex;
+        align-items: center;
+        padding: 0 3rem 0 3rem; 
+        margin-bottom: 0;
+    }
+    #secDivP_5{
+        padding: 0 0 0 3%;
+    }
+    #sect_5_P{
+        margin: 1rem 0 6rem 0;
+        height: min-content;
+        width: 100%;
+    }
+    .sect_6{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-areas: 
+        "sect_6Div_1 sect_6Div_1"
+        "sect_6Div_3 sect_6Div_2"
+        "sect_6Div_4 sect_6Div_4";
+    }
+    .sect_6Div_1{grid-area: sect_6Div_1;}
+    .sect_6Div_2{grid-area: sect_6Div_2; padding: 0 3rem 0 0;}
+    .sect_6Div_3{grid-area: sect_6Div_3; padding: 3rem rem 0 3rem;}
+    .sect_6Div_4{grid-area: sect_6Div_4;}
+
+    .sect_7{
+        margin-bottom: 5rem;
+    }
+    h3{width: 100%;}
+
+    footer{
+        display: grid;
+        grid-template-areas: 
+        "footerDiv_1 footerDiv_1"
+        "footerDiv_3 footerDiv_2"
+        "attribution attribution"
+    }
+    .footerDiv_1{grid-area: footerDiv_1;}
+    .footerDiv_2{grid-area: footerDiv_2; padding: 6rem 5rem 0 0;}
+    .footerDiv_3{grid-area: footerDiv_3; padding: 2rem 0 5rem 5rem;}
+    .attribution{grid-area: attribution;}
+
+
+
+    .F{
+        width: 17.5rem;
+    }
+    .inputText{
+        width: 70%;
+    }
+    .inputContainer{
+        display: grid;
+        justify-items: right;
+    }
+    .inputText{
+        width: 70%;
+    }
+}
