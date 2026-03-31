@@ -1,57 +1,44 @@
-# Frontend Mentor - Huddle landing page with curved sections solution
+# Huddle Landing Page: Advanced Responsive Layouts with Curved Sections
 
-This is a solution to the [Huddle landing page with curved sections challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-curved-sections-5ca5ecd01e82137ec91a50f2).
+This repository is evidence of my learning journey. It represents a project I undertook to refine my layout and conditional logic skills before my current specialization in Full Stack development.
 
-## Table of contents
+**Note:** The design and assets were provided by Frontend Mentor. My role was the technical implementation from scratch.
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+---
 
+## 🌟 About this project
+This project is a high-fidelity landing page for **Huddle**, a conceptual community-building platform. The main challenge was implementing the "curved sections" that separate different content blocks, requiring a precise mix of background images and structural HTML.
 
-## Overview
+The core objective was to build a UI that feels organic and fluid, ensuring that the complex background transitions remain perfectly aligned across mobile, tablet, and desktop resolutions.
 
-### The challenge
+---
 
-Users should be able to:
+## 🚀 Links
+* **Live Demo:** [SEE DEMO HERE](https://cmp2007.github.io/Huddle-landing-page-with-curved-sections/)
+* **Frontend Mentor Profile:** [View my solutions](https://www.frontendmentor.io/profile/CMP2007)
+* **Original Challenge:** [Social media dashboard with theme switcher](https://www.frontendmentor.io/solutions/huddle-landing-page-with-curved-sections-Yjg1thfbvR)
 
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
+---
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./assets/images/Screenshot.jpg)
 
+---
 
-### Links
+## 📋 Evolution & Context Note
+> ⚠️ **Note on my trajectory:** This project demonstrates my transition towards **Adaptive UI**. Beyond simple CSS Media Queries, I implemented JavaScript to dynamically swap SVG assets based on viewport width, ensuring the curved sections always look sharp and correctly proportioned.
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/huddle-landing-page-with-curved-sections-Yjg1thfbvR)
-- Live Site URL: [Add live site URL here](https://cmp2007.github.io/Huddle-landing-page-with-curved-sections/)
+## 📋 Technical Milestones of this Stage
+In this phase of my learning, I successfully implemented:
 
-## My process
+* **Dynamic Asset Swapping:** Created a JS `checkWindow` function that listens to the `resize` event to swap between mobile and desktop SVG backgrounds, optimizing the visual flow.
+* **Complex Grid Area Mapping:** Used `grid-template-areas` to completely rearrange the layout structure between mobile (stacked) and desktop (alternating side-by-side) without changing the HTML order.
+* **Form Validation with Regex:** Integrated a newsletter subscription system with real-time email format validation using Regular Expressions (`emailRegex`).
+* **SVG Styling & Gradients:** Implemented advanced SVG manipulation, including custom linear gradients for social media icons and hover effects on vector paths.
+* **Semantic Typography:** Managed a dual-font system (Poppins for headings, Open Sans for body) to maintain brand consistency and readability.
 
-### Built with
-
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-
-### Continued development
-
-At this moment I want to continue doing challenges and practices based on HTML, CSS and JS to develop a good foundation before continuing with my learning path.
-
-### Useful resources
-
-## Author
-
-- Frontend Mentor - [CMP2007](https://www.frontendmentor.io/profile/CMP2007)
+## 🛠️ Technologies (at the time)
+* **Vanilla JavaScript:** Window resize handling, DOM manipulation, and Regex validation.
+* **HTML5 & CSS3:** CSS Grid (Areas), Flexbox, and complex background positioning.
+* **Responsive Design:** Mobile-first approach with multiple breakpoints (499px, 650px, 870px, 1000px, 1350px).
