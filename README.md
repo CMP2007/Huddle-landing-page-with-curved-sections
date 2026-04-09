@@ -25,7 +25,8 @@ The core objective was to build a UI that feels organic and fluid, ensuring that
 
 ### Screenshot
 
-![](./assets/images/Screenshot.jpg)
+![](./images/Screenshot1.png)
+![](./images/Screenshot2.png)
 
 ---
 
