@@ -25,8 +25,17 @@ The core objective was to build a UI that feels organic and fluid, ensuring that
 
 ### Screenshot
 
-![](./images/Screenshot1.png)
-![](./images/Screenshot2.png)
+<div align="center">
+  <p align="center">
+    <strong>Desktop Version</strong><br>
+    <img src="./images/Screenshot1.png" width="700" alt="Huddle Desktop Preview">
+  </p>
+  <br>
+  <p align="center">
+    <strong>Mobile Version</strong><br>
+    <img src="./images/Screenshot2.png" width="250" alt="Huddle Mobile Preview">
+  </p>
+</div>
 
 ---
 
