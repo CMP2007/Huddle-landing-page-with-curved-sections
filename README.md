@@ -19,7 +19,7 @@ The core objective was to build a UI that feels organic and fluid, ensuring that
 ## 🚀 Links
 * **Live Demo:** [SEE DEMO HERE](https://cmp2007.github.io/Huddle-landing-page-with-curved-sections/)
 * **Frontend Mentor Profile:** [View my solutions](https://www.frontendmentor.io/profile/CMP2007)
-* **Original Challenge:** [Social media dashboard with theme switcher](https://www.frontendmentor.io/solutions/huddle-landing-page-with-curved-sections-Yjg1thfbvR)
+* **Original Challenge:** [Huddle-landing-page-with-curved-sections](https://www.frontendmentor.io/solutions/huddle-landing-page-with-curved-sections-Yjg1thfbvR)
 
 ---
 
